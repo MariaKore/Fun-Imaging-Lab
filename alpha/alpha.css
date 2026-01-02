@@ -12,6 +12,13 @@ body {
     border-radius: 10px;
 }
 
+a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ff00aa;
+    transition: 0.4s;
+}
+
 /* rainbow hover effect */
 a:hover {
     background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);
@@ -68,3 +75,4 @@ a:hover {
             
     color: transparent;
 }
+
