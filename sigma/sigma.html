@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sigma (gaussian blur) visualizer</title>
+    <link rel="stylesheet" href="sigma.css"> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1> Sigma (gaussian blur) visualizer </h1>
+    
+    <label for="sigma">Sigma:</label>
+    <input type="range" id="sigma" min="0" max="20" step="0.1" value="1">
+    <span id="sigmaValue">1.00</span>
+
+    <div id="sigmabox"></div>
+
+    <h3> What is Sigma (σ) in image science? </h3>
+    <ul>
+        <li> Controls the amount of blur in a Gaussian kernel </li>
+        <li> Higher sigma = more blur </li>
+        <li> Used in image processing and computer vision </li>
+        <li> Affects how much detail is preserved vs. how much noise is reduced </li>
+    </ul>
+
+    <canvas id="sigmaChart" width="400" height="300"></canvas>
+
+    <script src="sigma.js"></script>
+</body>
+</html>
