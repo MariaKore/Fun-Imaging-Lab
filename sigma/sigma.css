@@ -1,0 +1,15 @@
+body { 
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    background: #b2f5ea;
+}
+
+#sigmabox {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background: mintcream;
+    border-radius: 10px;
+
+    filter: blur(5px);
+}
